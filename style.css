@@ -1,0 +1,112 @@
+/* General Styling */
+body {
+    background-color: #000; /* Solid black background for a clean look */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  /* Instructions */
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #aaa; /* Slightly muted color for instructions */
+  }
+  
+  /* Buttons Section */
+  .buttons {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #000; /* Matches the background for a minimal look */
+    border: 2px solid #333; /* Subtle border for definition */
+    font-size: 2rem;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1), 
+                0 0 10px rgba(255, 255, 255, 0.2) inset;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.8), 
+                0 0 15px rgba(255, 255, 255, 1) inset;
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  
+  #rock {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6), 
+                0 0 10px rgba(255, 0, 0, 0.4) inset;
+  }
+  
+  #rock:hover {
+    box-shadow: 0 0 40px rgba(255, 0, 0, 0.9), 
+                0 0 20px rgba(255, 0, 0, 0.7) inset;
+  }
+  
+  #paper {
+    box-shadow: 0 0 20px rgba(0, 120, 255, 0.6), 
+                0 0 10px rgba(0, 120, 255, 0.4) inset;
+  }
+  
+  #paper:hover {
+    box-shadow: 0 0 40px rgba(0, 120, 255, 0.9), 
+                0 0 20px rgba(0, 120, 255, 0.7) inset;
+  }
+  
+  #scissors {
+    box-shadow: 0 0 20px rgba(0, 255, 128, 0.6), 
+                0 0 10px rgba(0, 255, 128, 0.4) inset;
+  }
+  
+  #scissors:hover {
+    box-shadow: 0 0 40px rgba(0, 255, 128, 0.9), 
+                0 0 20px rgba(0, 255, 128, 0.7) inset;
+  }
+  
+  /* Scores */
+  #scores {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  #user-score, #computer-score {
+    font-weight: bold;
+  }
+  
+  #user-score {
+    color: #00ff80; /* Matches scissors' glow */
+  }
+  
+  #computer-score {
+    color: #ff0040; /* Matches rock's glow */
+  }
+  
+  /* Result Message */
+  #result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
