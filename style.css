@@ -109,4 +109,26 @@ body {
     margin-top: 10px;
     color: #fff;
   }
-  
+/* Add a pressed effect */
+button.pressed {
+    transform: scale(0.9); /* Shrink effect */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Highlight */
+  }
+/* History Section */
+#history {
+    position: absolute;
+    margin-top: 20px;
+    top: 80%;
+    color: #aaa;
+    font-size: 1rem;
+    max-height: 150px; /* Limit height */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    border: 1px solid #333; /* Optional: add a subtle border */
+    padding: 10px;
+    width: 90%; /* Adjust width to match layout */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #111; /* Match the theme */
+    border-radius: 5px;
+  }
+      
